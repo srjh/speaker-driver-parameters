@@ -5,15 +5,15 @@ This is a Python-based tool for calculating the Thiele-Small loudspeaker paramet
 We feed a white noise signal from a low-impedance source into a voltage divider circuit that includes a test resistor and the target speaker driver, as follows:
 
 ```
-#AMP OUT -----+--------> LINE In Right
-#             |
-#           Ztest
-#             |
-#             +--------> LINE In Left
-#             |   
-#          Rseries
-#             |
-#GND----------+--------> LINE In GND
+AMP OUT -----+--------> LINE In Right
+             |
+           Ztest
+             |
+             +--------> LINE In Left
+             |   
+          Rseries
+             |
+GND----------+--------> LINE In GND
 ```
 The wave file used as an input to the program should be the left and right channels as measured above.
 
