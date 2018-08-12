@@ -1,4 +1,4 @@
-#Speaker Driver Parameters Calculator
+# Speaker Driver Parameters Calculator
 
 This is a Python-based tool for calculating the Thiele-Small loudspeaker parameters from an input wave file.
 
